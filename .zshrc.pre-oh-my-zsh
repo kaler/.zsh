@@ -1,0 +1,7 @@
+
+PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting
+unalias run-help
+autoload run-help
+HELPDIR=/usr/local/share/zsh/helpfiles
+alias ls='ls -G'
+alias ll='ls -h1'
